@@ -1,0 +1,42 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset files
+data/
+*.dat
+*.csv
+
+# Downloaded model weights and caches
+*.pt
+*.pth
+*.onnx
+.cache/
+huggingface_cache/
+
+# Generated experiment results
+results/
+multimodal_recommendations.csv
+llm_explanations.csv
+model_comparison.csv
+fusion_experiments.csv
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
